@@ -35,8 +35,5 @@ with open((__file__.rstrip("code.py")+"input.txt"), 'r') as input_file:
             score += 3+3
             tscore += 6+1
 
-    
-
-
 print("Part One : "+ str(score))
 print("Part Two : "+ str(tscore))
